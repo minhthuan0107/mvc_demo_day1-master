@@ -60,4 +60,17 @@ public class BookEntity {
     public void setBookDetails(BookDetailsEntity bookDetails) {
         this.bookDetails = bookDetails;
     }
+
+    @Override
+    public String toString() {
+        return "BookEntity{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", author='" + author + '\'' +
+                ", category name=" + category.getName() +
+                ", Total page=" +bookDetails.getNumberOfPage()+
+                ", Price=" +bookDetails.getPrice()+
+                ", Publish date=" +bookDetails.getPublishDate()+
+                '}';
+    }
 }

@@ -56,7 +56,7 @@ public class MainTesst {
     }
 
     public static void main(String[] args) {
-        createNewBookEntry();
-        createNewBookEntryWithNewCategory();
+        //createNewBookEntry();
+        //createNewBookEntryWithNewCategory();
     }
 }

@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 .pt-10{
-    padding-top: 10px;
+    padding-top: 50px;
 }
 .mt-10{
     margin-top: 10px;
@@ -13,4 +13,30 @@
     color: #ff0000;
     font-style: italic;
     font-weight: bold;
+}
+h2{
+    color:orange;
+    text-align:center;
+}
+.navbar-brand {
+    margin-right: 10px;
+}
+.navbar-header {
+    display: inline-block;
+}
+.navbar-inverse {
+    background-color: black; /* hoặc màu nền bạn muốn sử dụng */
+    border-color: black; /* Đối với thanh viền */
+}
+
+.navbar-inverse .navbar-brand {
+    color: white; /* hoặc màu chữ bạn muốn sử dụng */
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white; /* hoặc màu chữ bạn muốn sử dụng cho các liên kết trong thanh điều hướng */
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white; /* Đối với biểu tượng điều hướng di động */
 }
